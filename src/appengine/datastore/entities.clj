@@ -3,8 +3,11 @@
 	    EntityNotFoundException Query Query$FilterOperator))
   (:require [appengine.datastore.core :as ds])
   (:use [clojure.contrib.str-utils2 :only (join)]
-        [clojure.contrib.seq-utils :only (includes?)]
-        appengine.utils	inflections))
+        appengine.utils))  ; FIXME add inflections - need to be updated to latest clojure 1.2 version.
+
+(defn- pluralize [word] 
+  "FIXME remove this defn and use inflections after updating to latest clojure 1.2 version." 
+  word)
 
 (defn- entity-key? [entity-specs]
   (let [[attribute & options] entity-specs]

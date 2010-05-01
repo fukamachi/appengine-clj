@@ -1,11 +1,18 @@
-# Clojure library for Google App Engine
+# Clojure library for Google App Engine / clojure-1.2 branch
 
+* [fukamachi / appengine-clj](http://github.com/fukamachi/appengine-clj) forked
+* created a clojure-1.2 branch
+* modified datastore/entities.clj for latest clojure 1.2 version.
+
+----
 
 This library is a Clojure API for [Google App
 Engine](http://code.google.com/appengine). It is based on John Hume's
 [appengine-clj](http://github.com/duelinmarkers/appengine-clj) and has
 some enhancements. It is heavily refactored, so don't expect
 compatibility with the original library.
+
+This version has wrapper functions for Memcache; added by [fukamachi](http://github.com/fukamachi)
 
 ### appengine.datastore.core
 

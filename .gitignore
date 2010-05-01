@@ -1,7 +1,6 @@
 *.swp
 autodoc
-lib/*.jar
-appengine-clj.jar
+*.jar
 classes
 datastore-indexes-auto.xml
 *~
