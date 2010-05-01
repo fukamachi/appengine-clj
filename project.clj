@@ -1,4 +1,4 @@
-(defproject appengine "0.2-SNAPSHOT"
+(defproject org.clojars.choas/appengine "0.2-SNAPSHOT"
   :author "John D. Hume, Roman Scherer, Jean-Denis Greze"
   :description "Clojure library for Google App Engine."
   :url "http://github.com/choas/appengine-clj"

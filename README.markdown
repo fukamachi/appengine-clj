@@ -4,6 +4,9 @@
 * created a clojure-1.2 branch
 * modified datastore/entities.clj for latest clojure 1.2 version.
 
+[Leiningen](http://github.com/technomancy/leiningen) usage:
+    [org.clojars.choas/appengine "0.2-SNAPSHOT"]
+
 ----
 
 This library is a Clojure API for [Google App
