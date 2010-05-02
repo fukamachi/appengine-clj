@@ -29,7 +29,7 @@ Example:
 
 <pre><code>
 (create-entity {:kind "continent" :name "Europe"})
-=> {:kind "country" :key #<Key Person(1138)> :name "Europe"}
+=> {:kind "continent" :key #&lt;Key Person(1138)&gt; :name "Europe"}
 </code></pre>
 
 ### appengine.datastore.entities
@@ -64,9 +64,9 @@ Examples:
 
 ; this prints: 
 
-{:name Europe, :iso-3166-alpha-2 eu, :kind continent, :key #<Key continent("eu")>}
-{:name Spain, :iso-3166-alpha-2 es, :parent-key #<Key continent("eu")>, :kind country, :key #<Key continent("eu")/country("es")>}
-{:code SP58, :name Galicia, :parent-key #<Key continent("eu")/country("es")>, :kind region, :key #<Key continent("eu")/country("es")/region("SP58")>}
+{:name Europe, :iso-3166-alpha-2 eu, :kind continent, :key #&lt;Key continent("eu")&gt;}
+{:name Spain, :iso-3166-alpha-2 es, :parent-key #&lt;Key continent("eu")&gt;, :kind country, :key #&lt;Key continent("eu")/country("es")&gt;}
+{:code SP58, :name Galicia, :parent-key #&lt;Key continent("eu")/country("es")&gt;, :kind region, :key #&lt;Key continent("eu")/country("es")/region("SP58")&gt;}
 
 </code></pre>
 
