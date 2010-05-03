@@ -5,7 +5,7 @@
 * modified datastore/entities.clj for latest clojure 1.2 version.
 
 [Leiningen](http://github.com/technomancy/leiningen) usage:
-    [org.clojars.choas/appengine "0.2-SNAPSHOT"]
+    [org.clojars.fukamachi/appengine "0.2-SNAPSHOT"]
 
 ----
 
