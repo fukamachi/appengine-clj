@@ -56,7 +56,7 @@
 
 (defn replace-value
   "Replace value only if present"
-  [key value expiration] (put-value key value (first expiration) :replace))
+  [key value & expiration] (put-value key value (first expiration) :replace))
 
 (defn delete-value [#^Key key ms]
   (.delete (memcache) key ms))
